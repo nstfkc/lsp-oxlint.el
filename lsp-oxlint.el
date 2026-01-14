@@ -1,7 +1,7 @@
 ;;; lsp-oxlint.el --- LSP client for Oxlint -*- lexical-binding: t -*-
 
 ;; Author: Enes Tufekci
-;; URL: https://github.com/oxc-project/oxc
+;; URL: https://github.com/nstfkc/lsp-oxlint.el
 ;; Keywords: languages, tools, javascript, typescript, lsp
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "27.1") (lsp-mode "8.0.0"))
