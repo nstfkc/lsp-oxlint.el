@@ -25,7 +25,7 @@ An Emacs package providing LSP integration for [Oxlint](https://oxc.rs/docs/guid
 1. Add to `~/.doom.d/packages.el`:
    ```elisp
    (package! lsp-oxlint
-     :recipe (:host github :repo "oxc-project/lsp-oxlint"))
+     :recipe (:host github :repo "nstfkc/lsp-oxlint.el"))
    ```
 
 2. Run `doom sync` and restart Emacs
@@ -41,7 +41,7 @@ The package auto-enables when lsp-mode loads. To configure, add to `~/.doom.d/co
 (use-package lsp-oxlint
   :straight (lsp-oxlint :type git
                         :host github
-                        :repo "oxc-project/lsp-oxlint")
+                        :repo "nstfkc/lsp-oxlint.el")
   :after lsp-mode)
 ```
 
