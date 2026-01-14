@@ -196,9 +196,5 @@ Useful for debugging activation issues."
                 (lsp-oxlint--teardown-hooks)
                 (setq-local lsp-oxlint--activated-p nil)))))
 
-;;;###autoload
-(with-eval-after-load 'lsp-mode
-  (require 'lsp-oxlint))
-
 (provide 'lsp-oxlint)
 ;;; lsp-oxlint.el ends here
